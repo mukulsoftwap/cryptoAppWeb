@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background: #121212;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.App {
+  padding: 2rem;
+  text-align: center;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.heading{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.chartContent{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.favorite{
+  flex: 1;
+  height: 400px;
+  background-color: #080808;
+  border-radius: 20px;
+  overflow-y: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.chartWrapper{
+  height: 330px;
+  flex: 2;
+  background-color: #080808;
+  border-radius: 20px;
+}
