@@ -13,8 +13,6 @@ body {
 }
 
 .heading{
-  grid-column-start: 1;
-  grid-column-end: 3;
   margin-bottom: 20px;
   margin-top: 0;
 }
@@ -41,4 +39,20 @@ body {
   flex: 2;
   background-color: #080808;
   border-radius: 20px;
+}
+
+@media (max-width: 1140px) {
+  .chartWrapper{
+    flex:1;
+  }
+}
+
+@media (max-width: 960px) {
+  .chartContent {
+    flex-direction: column-reverse;
+  }
+  .chartWrapper{
+    flex :none;
+    margin-bottom: 60px;
+  }
 }
